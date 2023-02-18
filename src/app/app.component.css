@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #d17979;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-right {
+  display: flex;
+}
+
+.form-inline {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.form-control {
+  width: 200px;
+  margin-right: 10px;
+}
+body {
+  background-color: #add8e6;
+}
+
+
+

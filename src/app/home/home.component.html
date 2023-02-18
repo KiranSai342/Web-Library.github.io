@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Books Library App</h1>
+        <p>Search for books by title or author name</p>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search for books..." [(ngModel)]="searchKey">
+          <button class="btn btn-primary" (click)="searchBooks()">Search</button>
+          <button class="btn btn-danger" (click)="clearSearch()">Clear</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Popular Subjects</h3>
+        <ul class="list-group">
+          <li class="list-group-item" *ngFor="let subject of popularSubjects" (click)="viewSubject(subject)">{{subject}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
